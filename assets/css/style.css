@@ -64,6 +64,14 @@ img {
     padding-right: 0;
 }
 
+footer {
+    background-color: #1a1a1a;
+}
+
+h4 {
+    color: white;
+}
+
 /* #region Header */
 
 .categories {
@@ -157,3 +165,14 @@ img {
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+.foot_info a {
+    font-size: 10px;
+    padding: 0.2rem;
+}
+
+.foot_social {
+    color: white;
+}
