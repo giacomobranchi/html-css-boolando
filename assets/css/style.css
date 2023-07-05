@@ -7,6 +7,10 @@
 
 /* #region utilities */
 
+.px_2 {
+    padding-left: 1rem;
+}
+
 .my_3 {
     margin-top: 0.5rem;
 }
@@ -26,6 +30,14 @@
     justify-content: space-between;
     margin: auto;
     padding: 1rem 0;
+}
+
+.p_absolute {
+    position: absolute;
+}
+
+.p_relative {
+    position: relative;
 }
 
 /* #endregion utilities */
@@ -71,16 +83,10 @@ img {
 
 /* #endregion Header */
 
+/* #region Main */
+
 .card {
     width: calc(100% / 3);
-    position: relative;
-}
-
-.p_absolute {
-    position: absolute;
-}
-
-.p_relative {
     position: relative;
 }
 
@@ -114,6 +120,25 @@ img {
     padding: 0 1rem;
 }
 
-.px_2 {
-    padding-left: 1rem;
+.brand {
+    font-size: 10px;
 }
+
+.price {
+    font-size: 10px;
+}
+
+.actual_prize {
+    color: red;
+    font-weight: 900;
+}
+
+.original_prize {
+    text-decoration: line-through;
+}
+
+.product_info {
+    margin-top: -2rem;
+}
+
+/* #endregion Main */
